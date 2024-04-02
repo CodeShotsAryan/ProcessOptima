@@ -1,4 +1,3 @@
-import React from 'react'
 import {Noto_Sans , Lato } from 'next/font/google'
 import ArrayTypesBox from '@/component/ArrayTypeBox'
 import ProcessTable from '@/component/ProcessBox'
