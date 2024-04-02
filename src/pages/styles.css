@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    background-color: #F9F9F9;
+}
+
+/* For small devices (e.g., smartphones) */
+@media only screen and (max-width: 600px) {
+    .input-container,
+    .output-container {
+        width: 100%;
+        background-color: white;
+        padding: 20px; /* Increase padding for better spacing */
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-bottom: 20px; /* Increase margin for better separation */
+    }
+}
+
+/* For medium and large devices (e.g., tablets, desktops) */
+@media only screen and (min-width: 601px) {
+    .input-container {
+        width: 25%;
+        float: left;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-right: 3%;
+        margin-top: 3%;
+        margin-left: 4%;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .output-container {
+        width: 60%;
+        float: right;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-top: 3%;
+        margin-right: 4%;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+        margin-left: 5px;
+    }
+
+    .clear {
+        clear: both;
+    }
+}
